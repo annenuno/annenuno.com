@@ -1,7 +1,18 @@
+import Menu from "../components/menu";
+
 function About() {
   return (
     <>
-      <h1>About page</h1>
+      <main className="bg-[#FAFAFA]">
+        <div className="flex flex-row">
+          <div className="bg-[#FBF4FB] border-[#DEB7DC] border-r-2 w-[120px] h-screen">
+            <div>heeeiiyrtcygbuhjinuihvftyuyhnijbtctrctygbijnibvtctree</div>
+          </div>
+          <div>
+            <Menu />
+          </div>
+        </div>
+      </main>
     </>
   );
 }
