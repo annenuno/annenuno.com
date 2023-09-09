@@ -10,9 +10,9 @@ export default function Aboutbtn() {
         >
           feed
         </Link>
-        <div className="bg-[#CAD959] rounded-full mx-5 px-12 py-3 whitespace-pre text-xl">
+        {/* <div className="bg-[#CAD959] rounded-full mx-5 px-12 py-3 whitespace-pre text-xl">
           feed
-        </div>
+        </div> */}
       </div>
     </>
   );

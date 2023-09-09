@@ -10,9 +10,9 @@ export default function Aboutbtn() {
         >
           about
         </Link>
-        <div className="bg-[#DEB7DC] rounded-full mx-5 px-12 py-3 whitespace-pre text-xl">
+        {/* <div className="bg-[#DEB7DC] rounded-full mx-5 px-12 py-3 whitespace-pre text-xl">
           about
-        </div>
+        </div> */}
       </div>
     </>
   );
