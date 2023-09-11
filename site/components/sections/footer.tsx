@@ -1,8 +1,9 @@
 export default function Footer() {
   return (
     <>
-      <p className="bg-cyan-200">footer</p>
-      <hr />
+      <div className="flex flex-col">
+        <div className="bg-cyan-400">This is the footer</div>
+      </div>
     </>
   );
 }

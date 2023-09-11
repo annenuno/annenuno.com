@@ -1,9 +1,11 @@
-// import Link from "next/link";
+import Small from "../cards/small";
 
 export default function Main() {
   return (
     <>
-      <div>hello this is the main page!</div>
+      <div>
+        <Small />
+      </div>
     </>
   );
 }
