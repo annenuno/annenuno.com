@@ -4,7 +4,8 @@ export default function Main() {
   return (
     <>
       <div>
-        <Small />
+        hello
+        {/* <Small /> */}
       </div>
     </>
   );

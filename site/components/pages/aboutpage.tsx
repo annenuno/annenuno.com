@@ -1,14 +1,17 @@
 // import Link from "next/link";
 import Projectbtn from "../btn/projectbtn";
 import Description from "../cards/description";
+import Small from "../cards/small";
 
 export default function About() {
   return (
     <>
       <main className="text-[#366595] bg-[#FAFAFA] h-screen">
         <div className="flex flex-row gap-10 pl-10">
-          <div className="w-2/5">polaroid</div>
-          <div className="w-3/5 p-5 bg-[#FBF4FB] border-2 border-[#DEB7DC] rounded-xl">
+          <div className="w-2/5">
+            <Small />
+          </div>
+          <div className="w-3/5 p-10 bg-[#FBF4FB] border-2 border-[#DEB7DC] rounded-xl">
             <Description />
           </div>
         </div>
