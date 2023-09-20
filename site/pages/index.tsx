@@ -18,12 +18,12 @@ export default function Home() {
             <Menu />
           </div>
         </div>
-        <div className="bg-[FAFAFA]py-10 px-20 h-3/4">
+        <div className="bg-[#FAFAFA] py-10 px-20">
           <div>
             <Main />
           </div>
         </div>
-        <div className="h-auto px-20 py-5 bg-cyan-100">
+        <div className="px-20 py-5 bg-[#FAFAFA]">
           <div>
             <Footer />
           </div>

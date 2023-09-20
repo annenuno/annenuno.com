@@ -23,7 +23,7 @@ export default function About() {
             <Projectbtn />
           </div>
         </div>
-        <div className="p-10">
+        <div className="pl-10">
           <div className="text-[16px] text-[#8B8ECD] p-2">
             💜 Wow, I'm so impressed!
           </div>

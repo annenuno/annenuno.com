@@ -19,7 +19,7 @@ function Feed() {
             <FeedPage />
           </div>
         </div>
-        <div className="px-20 py-5 bg-cyan-100">
+        <div className="px-20 py-5 bg-[#FAFAFA] text-[#CAD959]">
           <div>
             <Footer />
           </div>
