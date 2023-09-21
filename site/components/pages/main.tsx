@@ -1,5 +1,6 @@
 import Small from "../cards/small";
 import Large from "../cards/large";
+import Medium from "../cards/medium";
 
 export default function Main() {
   return (
@@ -8,6 +9,7 @@ export default function Main() {
         <div>
           hello
           <Large />
+          <Medium />
           <Small />
         </div>
       </main>
