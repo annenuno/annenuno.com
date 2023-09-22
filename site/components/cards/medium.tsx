@@ -4,14 +4,14 @@ import Image from "next/image";
 export default function Medium() {
   return (
     <>
-      <div className="bg-white border-2 border-[#7A88C9] rounded w-[366px] h-max">
+      <div className="px-2 bg-white border-2 border-[#7A88C9] rounded w-[300px] h-max">
         <div className="p-3 text-[#7A88C9] bold">plant-room.png</div>
         <Image
           src="/plant-room.png"
           width={500}
           height={500}
           alt="Picture of the author"
-          className="border-y-2 border-[#7A88C9] bg-[#7A88C9]"
+          className="border-2 border-[#7A88C9] bg-[#7A88C9]"
         />
         <div className="p-3 text-[#7A88C9]">annenuno / 08.21</div>
       </div>

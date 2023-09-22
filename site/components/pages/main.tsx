@@ -6,11 +6,14 @@ export default function Main() {
   return (
     <>
       <main className="bg-[#FAFAFA] h-auto">
-        <div>
-          hello
-          <Large />
-          <Medium />
-          <Small />
+        <div className="flex flex-col">
+          <div className="flex">
+            <Large />
+            <Medium />
+          </div>
+          <div className="absolute">
+            <Small />
+          </div>
         </div>
       </main>
     </>

@@ -3,8 +3,16 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <>
-      <div className="flex flex-row text-[#366595]">
-        <div>This is the footer</div>
+      <div className="flex justify-between text-[#366595]">
+        <div>
+          <Image
+            priority
+            src="/Group.svg"
+            height={40}
+            width={40}
+            alt="Follow us on Twitter"
+          />
+        </div>
         <div>
           <Image
             priority
@@ -14,7 +22,15 @@ export default function Footer() {
             alt="Follow us on Twitter"
           />
         </div>
-        <div>Top ^</div>
+        <div>
+          <Image
+            priority
+            src="/arrow-up.svg"
+            height={20}
+            width={20}
+            alt="email"
+          />
+        </div>
       </div>
     </>
   );
