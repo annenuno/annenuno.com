@@ -53,7 +53,7 @@ export default function Small() {
               width={500}
               height={500}
               alt="Picture of the author"
-              className="border-2 border-[#7A88C9]"
+              className="border-2 border-[#7A88C9] bg-[#7A88C9]"
             />
             <div className="p-3 text-[#7A88C9]">annenuno / 07.29</div>
           </div>
