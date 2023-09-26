@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-col bg-[#FAFAFA] h-auto">
+    <main className="flex flex-col bg-[#FAFAFA] bg-[url('/bg.svg')] h-auto">
       <header className="fixed top-0 left-0 z-[1000] w-[75px] h-screen p-0 border-r-2 border-[#8B8ECD] mb-0 bg-[#E3E5FF]">
         <div className="overflow-hidden w-full flex items-center justify-center px-4">
           <div className="flex flex-col justify-around">
@@ -46,22 +46,22 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <div className="h-screen">
+      <div className="h-full">
         <div className="flex flex-row">
           <div>
             <Menu />
           </div>
         </div>
-        <div className="bg-[#FAFAFA] px-20">
+        <div className="pl-[75px] py-10">
           <div>
             <Main />
           </div>
         </div>
-        <div className="px-20 py-2 bg-[#FAFAFA]">
+        {/* <div className="px-20 py-2 bg-[#FAFAFA]">
           <div>
             <Footer />
           </div>
-        </div>
+        </div> */}
       </div>
     </main>
   );

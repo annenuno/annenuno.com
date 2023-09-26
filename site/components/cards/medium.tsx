@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Medium() {
   return (
     <>
-      <div className="px-2 bg-white border-2 border-[#7A88C9] rounded w-[300px] h-max">
+      <div className="rotate-1 px-2 bg-white border-2 border-[#7A88C9] rounded w-[300px] h-max">
         <div className="p-3 text-[#7A88C9] bold">plant-room.png</div>
         <Image
           src="/plant-room.png"

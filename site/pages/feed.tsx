@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Feed() {
   return (
-    <main className="flex flex-col bg-[#FAFAFA] h-auto">
+    <main className="flex flex-col bg-[#FAFAFA] bg-[url('/bg.svg')] h-auto">
       <header className="fixed top-0 left-0 z-[1000] w-[75px] h-screen p-0 border-r-2 border-[#CAD959] mb-0 bg-[#F9FCE4]">
         <div className="overflow-hidden w-full flex items-center justify-center px-4">
           <div className="flex flex-col justify-around">
@@ -42,7 +42,7 @@ function Feed() {
           </div>
         </div>
       </header>
-      <div className="h-screen">
+      <div className="h-full">
         <div className="flex flex-row">
           <div>
             <Menu />
@@ -53,11 +53,11 @@ function Feed() {
             <FeedPage />
           </div>
         </div>
-        <div className="px-20 py-5 bg-[#FAFAFA] text-[#CAD959]">
+        {/* <div className="px-20 py-5 bg-[#FAFAFA] text-[#CAD959]">
           <div>
             <Footer />
           </div>
-        </div>
+        </div> */}
       </div>
     </main>
   );
