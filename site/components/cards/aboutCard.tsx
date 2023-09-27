@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Small() {
   return (
     <>
-      <div className="bg-white border-2 border-[#7DB249] rounded w-[266px] h-max rotate-[8deg] px-2">
+      <div className="bg-white border-2 border-[#7DB249] rounded w-[266px] h-max px-2">
         <div className="flex justify-between p-3 text-[#7DB249] bold">
           <div>˚ʚ♡ɞ˚ .png</div>
           <Image

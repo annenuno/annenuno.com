@@ -15,7 +15,7 @@ export default function Main() {
               <Medium />
             </div>
           </div>
-          <div className="relative left-[400px] top-[-100px]">
+          <div className="relative right-[0px] top-[-100px] mx-auto">
             <Small />
           </div>
         </div>

@@ -2,29 +2,30 @@
 import Projectbtn from "../btn/projectbtn";
 import Description from "../cards/description";
 import Small from "../cards/small";
+import AboutCard from "../cards/aboutCard";
 
 export default function About() {
   return (
     <>
       <main className="text-[#366595] h-auto">
-        <div className="flex flex-row gap-10 pl-10">
-          <div className="w-2/5">
-            <Small />
-          </div>
-          <div className="w-3/5 p-10 bg-[#FBF4FB] border-2 border-[#DEB7DC] rounded-xl">
+        <div className="flex flex-row gap-10 px-10">
+          <div className="basis-3/6 p-10 bg-[#FBF4FB] border-2 border-[#DEB7DC] rounded-xl">
             <Description />
           </div>
-        </div>
-        <div className="flex flex-col pl-10 py-10">
-          <div className="text-[16px] text-[#8B8ECD] p-2">📝 Projects</div>
-          <div className="flex flex-col gap-3">
-            <Projectbtn />
-            <Projectbtn />
-            <Projectbtn />
+          <div className="flex justify-center basis-3/6 px-20 m-auto">
+            <AboutCard />
           </div>
         </div>
-        <div className="pl-10">
-          <div className="text-[16px] text-[#8B8ECD] p-2">
+        <div className="flex flex-col px-10 py-10">
+          <div className="text-[20px] text-[#8B8ECD] p-2">📝 Projects</div>
+          <div className="flex flex-col gap-3">
+            <Projectbtn />
+            {/* <Projectbtn />
+            <Projectbtn /> */}
+          </div>
+        </div>
+        <div className="px-10">
+          <div className="text-[20px] text-[#8B8ECD] p-2">
             💜 Wow, I'm so impressed!
           </div>
           <div className="p-5 border-2 border-[#E3E5FF] rounded-xl">

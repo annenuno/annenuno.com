@@ -4,10 +4,19 @@ export default function Description() {
   return (
     <>
       <div>
-        <div>
+        <div className="text-[18px]">
           Hey there, I’m Ana, a developer based in <i>Baton Rouge, LA</i> with a
           passion for creating seamless and delightful experiences. Currently
-          Junior Developer @ <strong>Rockit Science Agency. </strong>
+          Junior Developer @{" "}
+          <strong>
+            <a
+              href="https://rockitscienceagency.com/"
+              target="_blank"
+              className="hover:text-[#8B8ECD]"
+            >
+              Rockit Science Agency.
+            </a>
+          </strong>
           <br />
           <br />I especially enjoy working on web development and improve my
           user interaction designs. When I’m not working, you can find me
