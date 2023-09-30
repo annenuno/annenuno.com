@@ -28,12 +28,12 @@ export default function About() {
           <div className="text-[20px] text-[#8B8ECD] p-2">
             💜 Wow, I'm so impressed!
           </div>
-          <div className="p-5 border-2 border-[#8B8ECD] bg-[#F0F1FF] rounded-xl">
-            <div className="flex flex-col gap-5">
-              <div className="flex flex-col">
-                <div className="text-[#8B8ECD]">What I work with</div>
+          <div>
+            <div className="flex flex-row justify-between gap-5">
+              <div className="flex flex-col p-5 border-2 border-[#8B8ECD] bg-[#F0F1FF] rounded-xl w-[300px]">
+                <div className="text-[#8B8ECD] pb-2">What I work with</div>
                 <div className="w-full">
-                  <ul className="flex flex-col">
+                  <ul className="flex flex-col gap-1">
                     <li>html / CSS</li>
                     <li>JavaScript</li>
                     <li>Nuxt 2 & 3</li>
@@ -48,10 +48,10 @@ export default function About() {
                   </ul>
                 </div>
               </div>
-              <div className="flex flex-col">
-                <div className="text-[#8B8ECD]">What I'm learning</div>
+              <div className="flex flex-col p-5 border-2 border-[#8B8ECD] bg-[#F0F1FF] rounded-xl w-[300px]">
+                <div className="text-[#8B8ECD] pb-2">What I'm learning</div>
                 <div className="w-full">
-                  <ul className="flex">
+                  <ul className="flex flex-col gap-1">
                     <li>React JS</li>
                     <li>Next JS</li>
                     <li>Yoga</li>
@@ -61,10 +61,10 @@ export default function About() {
                   </ul>
                 </div>
               </div>
-              <div className="flex flex-col">
-                <div className="text-[#8B8ECD]">What I like</div>
+              <div className="flex flex-col p-5 border-2 border-[#8B8ECD] bg-[#F0F1FF] rounded-xl w-[300px]">
+                <div className="text-[#8B8ECD] pb-2">What I like</div>
                 <div className="w-full">
-                  <ul className="flex">
+                  <ul className="flex flex-col gap-1">
                     <li>Making Playlists</li>
                     <li>Figma auto-layout</li>
                     <li>Long walks</li>
