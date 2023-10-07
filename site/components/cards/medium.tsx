@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Spline from "@splinetool/react-spline";
 // import Link from "next/link";
 
 export default function Medium() {
@@ -14,13 +15,17 @@ export default function Medium() {
             alt="Picture of the author"
           />
         </div>
-        <Image
+        <div className="h-auto">
+          <Spline scene="https://prod.spline.design/wT8FG4fWG-USE13p/scene.splinecode" />
+          {/* <Spline scene="https://prod.spline.design/vqV0JsVrsZZDL4gK/scene.splinecode" /> */}
+        </div>
+        {/* <Image
           src="/plant-room.png"
           width={500}
           height={500}
           alt="Picture of the author"
           className="border-2 border-[#7A88C9] bg-[#7A88C9]"
-        />
+        /> */}
         <div className="p-3 text-[#7A88C9]">annenuno / 08.21</div>
       </div>
     </>

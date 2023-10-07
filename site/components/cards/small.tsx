@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Spline from "@splinetool/react-spline";
 // import Link from "next/link";
 
 export default function Small() {
@@ -14,13 +15,19 @@ export default function Small() {
             alt="Picture of the author"
           />
         </div>
-        <Image
+        {/* https://prod.spline.design/WcpEoVezwJD7ocv1/scene.splinecode */}
+        <div>
+          {/* <Spline scene="https://prod.spline.design/WcpEoVezwJD7ocv1/scene.splinecode" /> */}
+          {/* <Spline scene="https://prod.spline.design/HXIUueP2G0KxZJq1/scene.splinecode" /> */}
+          <Spline scene="https://prod.spline.design/vqV0JsVrsZZDL4gK/scene.splinecode" />
+        </div>
+        {/* <Image
           src="/ana.png"
           width={500}
           height={500}
           alt="Picture of the author"
           className="border-2 border-[#7DB249] bg-[#7DB249]"
-        />
+        /> */}
         <div className="p-3 text-[#7DB249]">annenuno / 08.21</div>
       </div>
     </>
