@@ -3,6 +3,7 @@ import Projectbtn from "../btn/projectbtn";
 import Description from "../cards/description";
 import Small from "../cards/small";
 import AboutCard from "../cards/aboutCard";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -12,6 +13,13 @@ export default function About() {
           <div className="basis-3/6 p-10 bg-[#FBF4FB] border-2 border-[#DEB7DC] rounded-xl">
             <Description />
           </div>
+          <Image
+            src="/cat.png"
+            width={150}
+            height={150}
+            alt="cat"
+            className="absolute left-[700px] top-[350px]"
+          />
           <div className="flex justify-center basis-3/6 px-20 m-auto">
             <AboutCard />
           </div>
@@ -20,8 +28,6 @@ export default function About() {
           <div className="text-[20px] text-[#8B8ECD] p-2">📝 Projects</div>
           <div className="flex flex-col gap-3">
             <Projectbtn />
-            {/* <Projectbtn />
-            <Projectbtn /> */}
           </div>
         </div>
         <div className="px-10">

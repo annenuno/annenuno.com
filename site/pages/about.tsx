@@ -42,7 +42,7 @@ function About() {
           </div>
         </div>
       </header>
-      <div className="h-full">
+      <div className="h-full w-autp">
         <div className="flex flex-row">
           <div>
             <Menu />

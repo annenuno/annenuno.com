@@ -6,7 +6,7 @@ import Spline from "@splinetool/react-spline";
 export default function Small() {
   return (
     <>
-      <div className="-rotate-6 px-2 bg-white border-2 border-[#7A88C9] rounded lg:w-[620px] h-max">
+      <div className="-rotate-6 px-2 bg-[#FAFAFA] border-2 border-[#7A88C9] rounded lg:w-[620px] h-max drop-shadow-lg">
         <div className="flex justify-between p-3 text-[#7A88C9] bold">
           <div>vuelo.png</div>
           <Image
@@ -26,7 +26,8 @@ export default function Small() {
         {/* <Spline scene="https://prod.spline.design/wT8FG4fWG-USE13p/scene.splinecode" /> */}
         {/* <Spline scene="https://prod.spline.design/WcpEoVezwJD7ocv1/scene.splinecode" /> */}
         <div className="w-[600px] h-[500px]">
-          <Spline scene="https://prod.spline.design/HXIUueP2G0KxZJq1/scene.splinecode" />
+          <Spline scene="https://prod.spline.design/wT8FG4fWG-USE13p/scene.splinecode" />
+          {/* <Spline scene="https://prod.spline.design/HXIUueP2G0KxZJq1/scene.splinecode" /> */}
         </div>
         <div className="p-3 text-[#7A88C9]">annenuno / 08.21</div>
       </div>
