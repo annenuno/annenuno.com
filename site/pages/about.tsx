@@ -12,7 +12,7 @@ function About() {
             <div>
               <Image
                 priority
-                src="/moon.svg"
+                src="/planet.svg"
                 height={32}
                 width={32}
                 alt="moon"
@@ -32,7 +32,7 @@ function About() {
             <div>
               <Image
                 priority
-                src="/email.svg"
+                src="/chat.svg"
                 height={32}
                 width={32}
                 alt="email"
@@ -44,7 +44,7 @@ function About() {
       </header>
       <div className="h-full w-autp">
         <div className="flex flex-row">
-          <div>
+          <div className="hidden md:flex">
             <Menu />
           </div>
         </div>

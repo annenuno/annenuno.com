@@ -9,13 +9,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-col bg-scroll bg-[#FAFAFA] bg-[url('/bg.svg')] h-auto">
-      <header className="fixed top-0 left-0 z-[1000] w-[75px] h-screen p-0 border-r-2 border-[#8B8ECD] mb-0 bg-[#E3E5FF]">
-        <div className="overflow-hidden w-full flex items-center flex-col px-4">
+    <main className="bg-[#FAFAFA] md:h-auto flex flex-col md:bg-[#FAFAFA] bg-[url('/bg.svg')]">
+      <header className="hidden md:flex fixed top-0 left-0 z-[1000] w-[75px] h-screen p-0 border-r-2 border-[#8B8ECD] mb-0 bg-[#E3E5FF]">
+        <div className="flex items-center flex-col px-4 md:overflow-hidden w-full">
           <div>
             <Image
               priority
-              src="/moon.svg"
+              src="/planet.svg"
               height={32}
               width={32}
               alt="moon"
@@ -35,7 +35,7 @@ export default function Home() {
           <div>
             <Image
               priority
-              src="/email.svg"
+              src="/chat.svg"
               height={32}
               width={32}
               alt="email"
@@ -44,14 +44,26 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <div className="h-full">
+      <div className="h-screen w-screen md:h-full">
         <div className="flex flex-row">
-          <div>
+          <div className="hidden md:flex">
             <Menu />
+          </div>
+          <div className="flex justify-between w-full bg-[#E3E5FF] border-b-2 border-[#8B8ECD] flex-row text-cyan-500 py-5 px-10 md:hidden">
+            <div>
+              <Image
+                priority
+                src="/planet.svg"
+                height={32}
+                width={32}
+                alt="moon"
+              />
+            </div>
+            <div>MENU</div>
           </div>
         </div>
         <div className="pl-[75px] py-10">
-          <div>
+          <div className="hidden md:flex">
             <Main />
           </div>
         </div>

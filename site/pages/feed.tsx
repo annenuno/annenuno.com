@@ -12,7 +12,7 @@ function Feed() {
             <div>
               <Image
                 priority
-                src="/moon.svg"
+                src="/planet.svg"
                 height={32}
                 width={32}
                 alt="moon"
@@ -32,7 +32,7 @@ function Feed() {
             <div>
               <Image
                 priority
-                src="/email.svg"
+                src="/chat.svg"
                 height={32}
                 width={32}
                 alt="email"
