@@ -23,24 +23,41 @@ export default function Home() {
               duration: 2,
               x: { duration: 1 },
             }}
-            className="text-[#6187AE] absolute"
+            className="text-[#6187AE] absolute hidden md:flex"
           >
-            <p className="text-[40px] absolute w-[250px]">
+            <p className="text-[16px] md:text-[40px] absolute w-[230px]">
               Hey, I'm Ana. <br />
-              I'm a{" "}
-              <span className="text-[#E1CAE0] absolute w-[200px]">
-                Web Developer
+              I'm a &nbsp;
+              <span className="text-[#E198DE] absolute w-[280px]">
+                Web Developer!
               </span>
             </p>
             <br />
             <br />
             <Link
-              href="/about"
-              className="px-10 py-5 bg-[#F9FCE4] absolute top-[300px]"
+              href="/more"
+              className="px-8 py-3 border-dotted border-2 border-[#6187AE] rounded-full absolute top-[130px] text-[#6187AE] text-sm md:text-xl hover:bg-[#F9FCE4] hover:text-[#DAE775] hover:border-[#DAE775]"
             >
               About
             </Link>
           </motion.div>
+          <div className="flex md:hidden py-10 px-10">
+            <p className="text-[25px] absolute w-[140px] text-[#6187AE]">
+              Hey, I'm Ana. <br />
+              I'm a &nbsp;
+              <span className="text-[#E198DE] absolute w-[180px]">
+                Web Developer!
+              </span>
+            </p>
+            <br />
+            <br />
+            <Link
+              href="/more"
+              className="px-8 py-3 border-dotted border-2 border-[#6187AE] rounded-full absolute top-[130px] text-[#6187AE] text-sm hover:bg-[#F9FCE4] hover:text-[#DAE775] hover:border-[#DAE775]"
+            >
+              About
+            </Link>
+          </div>
         </div>
         <Spline scene="https://prod.spline.design/fvFMXwOQR716p2fB/scene.splinecode" />
       </div>
