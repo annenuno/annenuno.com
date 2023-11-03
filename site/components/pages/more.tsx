@@ -31,6 +31,21 @@ export default function More() {
               <Spline scene="https://prod.spline.design/WcpEoVezwJD7ocv1/scene.splinecode" />
             </div>
           </div>
+          <div className="text-[#FAFAFA] bg-[#8B8ECD] shadow-lg shadow-[#8B8ECD]/60 rounded-3xl py-5 px-10">
+            <div className="text-2xl">Let's Chat!</div>
+            <div>
+              Feel free to contact me! We can talk about work, coffee, and
+              keyboards 😎
+            </div>
+            <div className="mt-5 mb-3">
+              <a
+                className="px-8 py-3 bg-[#F0F1FF] text-[#8B8ECD] w-fit rounded-lg font-bold shadow-lg shadow-[#F0F1FF]/20 hover:bg-[#E3E5FF]"
+                href="mailto:nunoany@gmail.com"
+              >
+                Send Email 📩
+              </a>
+            </div>
+          </div>
           <div className="flex flex-col md:flex-row gap-5 pb-5">
             <div className="shadow-lg shadow-[#8B8ECD]/60 px-10 py-5 rounded-3xl w-fit text-[#8B8ECD] bg-[#FAFAFA] basis-1/3">
               <div className="font-bold pb-5">What I work with</div>
