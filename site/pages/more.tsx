@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function About() {
   return (
-    <main className="w-screen h-screen">
+    <main className="w-screen h-full">
       <More />
     </main>
   );

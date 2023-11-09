@@ -25,7 +25,7 @@ export default function Home() {
             }}
             className="text-[#6187AE] absolute hidden md:flex"
           >
-            <p className="text-[16px] md:text-[40px] absolute w-[230px]">
+            <p className="text-[16px] md:text-[40px] absolute w-[300px] md:w-[230px]">
               Hey, I'm Ana. <br />
               I'm a &nbsp;
               <span className="text-[#E198DE] absolute w-[280px]">
@@ -36,7 +36,7 @@ export default function Home() {
             <br />
             <Link
               href="/more"
-              className="px-8 py-3 border-dotted border-2 border-[#6187AE] rounded-full absolute top-[130px] text-[#6187AE] text-sm md:text-xl hover:bg-[#F9FCE4] hover:text-[#DAE775] hover:border-[#DAE775]"
+              className="px-8 py-3 border-dotted border-2 border-[#6187AE] rounded-full absolute md:top-[130px] text-[#6187AE] text-sm md:text-xl hover:bg-[#F9FCE4] hover:text-[#DAE775] hover:border-[#DAE775]"
             >
               About
             </Link>

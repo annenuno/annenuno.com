@@ -4,7 +4,7 @@ import Spline from "@splinetool/react-spline";
 export default function More() {
   return (
     <>
-      <main className="bg-[#F0F1FF] h-screen w-screen">
+      <main className="bg-[#F0F1FF] h-full w-screen">
         <div className="p-5 md:px-40 md:py-10 flex flex-row gap-10">
           <Link
             href="/"
@@ -20,40 +20,42 @@ export default function More() {
           </Link>
         </div>
         <div className="flex flex-col gap-5 md:px-40">
-          <div className="flex flex-col md:flex-row gap-5">
-            <div className="basis-4/6 shadow-lg shadow-[#8B8ECD]/60 px-10 py-5 rounded-3xl w-fit text-[#8B8ECD] bg-[#FAFAFA]">
-              I’m Ana Nuno, a developer based in Baton Rouge, LA with a passion
-              for creating seamless and delightful experiences. Currently
-              part-time Junior Developer @{" "}
-              <span className="font-bold">Rockit Science Agency.</span>
-              <br /> <br />I especially enjoy working on web development and
-              improve my user interaction designs. When I’m not working, you can
-              find me enjoying the nice atmosphere of my favorite local coffee
-              shop, watering my plants or playing cozy games like{" "}
-              <span className="italic">Animal Crossing.</span>
+          <div className="flex flex-col md:flex-row gap-5 mx-5 md:mx-0">
+            <div className="flex flex-col md:flex-col basis-4/6 gap-5">
+              <div className="shadow-lg shadow-[#8B8ECD]/60 px-10 py-5 rounded-3xl w-fit text-[#8B8ECD] bg-[#E3E5FF]">
+                I’m Ana Nuno, a developer based in Baton Rouge, LA with a
+                passion for creating seamless and delightful experiences.
+                Currently part-time Junior Developer @{" "}
+                <span className="font-bold">Rockit Science Agency.</span>
+                <br /> <br />I especially enjoy working on web development and
+                improve my user interaction designs. When I’m not working, you
+                can find me enjoying the nice atmosphere of my favorite local
+                coffee shop, watering my plants or playing cozy games like{" "}
+                <span className="italic">Animal Crossing.</span>
+              </div>
+              <div className="text-[#FAFAFA] bg-[#8B8ECD] shadow-lg shadow-[#8B8ECD]/60 rounded-3xl py-5 px-10">
+                <div className="text-2xl">Let's Chat!</div>
+                <div>
+                  Feel free to contact me! We can talk about work, coffee, and
+                  keyboards 😎
+                </div>
+                <div className="mt-5 mb-3">
+                  <a
+                    className="px-8 py-3 bg-[#E3E5FF] text-[#8B8ECD] w-fit rounded-lg font-bold shadow-lg shadow-[#F0F1FF]/20 hover:bg-[#E3E5FF]"
+                    href="mailto:nunoany@gmail.com"
+                  >
+                    Send Email 📩
+                  </a>
+                </div>
+              </div>
             </div>
             <div className="basis-2/6 bg-[#FAFAFA] shadow-lg shadow-[#8B8ECD]/60 rounded-3xl p-5">
               {/* https://prod.spline.design/WcpEoVezwJD7ocv1/scene.splinecode */}
               <Spline scene="https://prod.spline.design/WcpEoVezwJD7ocv1/scene.splinecode" />
             </div>
           </div>
-          <div className="text-[#FAFAFA] bg-[#8B8ECD] shadow-lg shadow-[#8B8ECD]/60 rounded-3xl py-5 px-10">
-            <div className="text-2xl">Let's Chat!</div>
-            <div>
-              Feel free to contact me! We can talk about work, coffee, and
-              keyboards 😎
-            </div>
-            <div className="mt-5 mb-3">
-              <a
-                className="px-8 py-3 bg-[#F0F1FF] text-[#8B8ECD] w-fit rounded-lg font-bold shadow-lg shadow-[#F0F1FF]/20 hover:bg-[#E3E5FF]"
-                href="mailto:nunoany@gmail.com"
-              >
-                Send Email 📩
-              </a>
-            </div>
-          </div>
-          <div className="flex flex-col md:flex-row gap-5 pb-5">
-            <div className="shadow-lg shadow-[#8B8ECD]/60 px-10 py-5 rounded-3xl w-fit text-[#8B8ECD] bg-[#FAFAFA] basis-1/3">
+          <div className="flex flex-col md:flex-row gap-5 pb-5 mx-5 md:mx-0">
+            <div className="shadow-lg shadow-[#8B8ECD]/60 px-10 py-5 rounded-3xl md:w-fit text-[#8B8ECD] bg-[#E3E5FF] basis-1/3">
               <div className="font-bold pb-5">What I work with</div>
               <ul className="flex flex-col gap-1">
                 <li>html / CSS</li>
@@ -70,7 +72,7 @@ export default function More() {
               </ul>
             </div>
 
-            <div className="shadow-lg shadow-[#8B8ECD]/60 px-10 py-5 rounded-3xl w-fit text-[#8B8ECD] bg-[#FAFAFA] basis-1/3">
+            <div className="shadow-lg shadow-[#8B8ECD]/60 px-10 py-5 rounded-3xl md:w-fit text-[#8B8ECD] bg-[#E3E5FF] basis-1/3">
               <div className="font-bold pb-5">What I'm learning</div>
               <ul className="flex flex-col gap-1">
                 <li>React JS</li>
@@ -82,7 +84,7 @@ export default function More() {
               </ul>
             </div>
 
-            <div className="shadow-lg shadow-[#8B8ECD]/60 px-10 py-5 rounded-3xl w-fit text-[#8B8ECD] bg-[#FAFAFA] basis-1/3">
+            <div className="shadow-lg shadow-[#8B8ECD]/60 px-10 py-5 rounded-3xl md:w-fit text-[#8B8ECD] bg-[#E3E5FF] basis-1/3">
               <div className="font-bold pb-5">What I like</div>
               <ul className="flex flex-col gap-1">
                 <li>Making Playlists</li>
