@@ -5,7 +5,7 @@ import Spline from "@splinetool/react-spline";
 export default function More() {
   return (
     <>
-      <main className="bg-[#F0F1FF] h-screen w-screen">
+      <main className="bg-[#F0F1FF] h-full w-screen">
         <div className="p-5 md:px-40 md:py-10 flex flex-row gap-10">
           <Link
             href="/"
@@ -14,14 +14,15 @@ export default function More() {
             Home
           </Link>
           <Link
-            href="/"
+            href="/more"
             className="px-8 py-3 border-dotted border-2 border-[#6187AE] rounded-full text-[#6187AE] text-sm md:text-xl hover:bg-[#F9FCE4] hover:text-[#DAE775] hover:border-[#DAE775]"
           >
-            Projects
+            About
           </Link>
         </div>
         <div className="p-5 md:px-40">
-          <div>
+          <div className="text-[40px] text-[#6187AE]">Eura Love Jewelry Project</div>
+          <div className="mx-auto">
             <Image
               src="/euraLove.png"
               width={800}
@@ -39,13 +40,13 @@ export default function More() {
             ></iframe> */}
           </div>
           <div>
-            {/* <iframe
+            <iframe
               className="border border-rgba(0, 0, 0, 0.1);"
               width="800"
               height="450"
               src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FlEk95oAAetiEy9fF4R9UlR%2FBake-My-Cakes%3Ftype%3Ddesign%26node-id%3D1-3%26t%3DUAlooDAYP5y7uISy-1%26scaling%3Dscale-down-width%26page-id%3D0%253A1%26mode%3Ddesign"
               // allowfullscreen
-            ></iframe> */}
+            ></iframe>
           </div>
         </div>
       </main>
