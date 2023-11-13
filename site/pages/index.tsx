@@ -1,6 +1,3 @@
-// import Image from "next/image";
-// import Link from "next/link";
-// import Banner from "../components/banner";
 import Menu from "../components/sections/menu";
 import Main from "../components/pages/main";
 import Footer from "../components/sections/footer";
